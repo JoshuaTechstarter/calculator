@@ -31,4 +31,13 @@ def miles_to_km(m):
     return zahl1 / float(0.621371)
 
 
-# print (a, "Kilometer entsprechen: ", km_to_miles(a), "Meilen")
+# celsius to fahrenheit
+def celsius_to_fahrenheit(c):
+    zahl1 = float(c)
+    return zahl1 * 1.8 + 32
+
+
+# fahrenheit to celsius
+def fahrenheit_to_celsius(f):
+    zahl1 = float(f)
+    return (zahl1 - 32) * (5 / 9)
